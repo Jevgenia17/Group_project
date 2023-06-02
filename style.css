@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .menu_list {
@@ -33,6 +34,7 @@ body {
     align-items: center;
     text-align: center;
     padding-left: 270px;
+    flex-wrap: nowrap;
 }
 
 .number {
@@ -65,15 +67,17 @@ body {
 .catalog_1 {
     display: flex;
     padding-left: 270px;
+    flex-wrap: nowrap;
 }
 
 .catalog_2 {
     display: flex;
-
+    flex-wrap: nowrap;
 }
 
 .catalog_3 {
     display: flex;
+    flex-wrap: nowrap;
     padding-right: 275px;
 }
 
@@ -134,6 +138,9 @@ input:focus {
 .header_banner {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 270;
+    padding-right: 270;
 }
 
 .header_banner_modern {
@@ -173,4 +180,56 @@ input:focus {
     width: 210px;
     height: 50px;
     border: 1px solid white;
+}
+
+.header_btn_link {
+    text-decoration: none;
+}
+
+.section_rooms_h1 {
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.section_rooms_text {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 269px;
+    padding-right: 272px;
+}
+
+.section_rooms_link {
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.rooms_img_link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.section_rooms_img {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.rooms_img {
+    width: 290px;
+    height: 300px;
 }
